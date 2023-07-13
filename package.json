@@ -1,0 +1,23 @@
+{
+  "name": "cardcollectorapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kicker22/cardCollectorApp.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kicker22/cardCollectorApp/issues"
+  },
+  "homepage": "https://github.com/Kicker22/cardCollectorApp#readme",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

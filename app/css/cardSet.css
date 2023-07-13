@@ -1,0 +1,888 @@
+/* Set Cards Styling */
+
+/* Test Card Search Cards */
+.testImg {
+    height: 130px;
+    width: 100px;
+    margin: 10px;
+}
+
+#demo {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.setName {
+    font-size: .75rem;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+.setCardImg {
+    height: 130px;
+    width: 100px;
+    margin: 10px;
+}
+
+#allCards {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.cardName {
+    font-size: .75rem;
+    width: 100px;
+    margin: auto;
+    text-align: center;
+}
+
+
+/* Base Set */
+#baseDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#baseDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#baseDiv a {
+    text-decoration: none;
+}
+
+#baseDiv p {
+    font-size: 16px;
+}
+
+#baseDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#baseDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#baseDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* Gym Set */
+#gymDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#gymDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#gymDiv a {
+    text-decoration: none;
+}
+
+#gymDiv p {
+    font-size: 16px;
+}
+
+#gymDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#gymDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#gymDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* Neo Set */
+#neoDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#neoDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#neoDiv a {
+    text-decoration: none;
+}
+
+#neoDiv p {
+    font-size: 16px;
+}
+
+#neoDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#neoDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#neoDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* Legendary Collection Set */
+#legendDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#legendDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#legendDiv a {
+    text-decoration: none;
+}
+
+#legendDiv p {
+    font-size: 16px;
+}
+
+#legendDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#legendDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#legendDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* e-Card Set */
+#eCardDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#eCardDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#eCardDiv a {
+    text-decoration: none;
+}
+
+#eCardDiv p {
+    font-size: 16px;
+}
+
+#eCardDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#eCardDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#eCardDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* Ruby and Sapphire Set */
+#rsDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#rsDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#rsDiv a {
+    text-decoration: none;
+}
+
+#rsDiv p {
+    font-size: 16px;
+}
+
+#rsDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#rsDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#rsDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* Diamond and Pearl Set */
+#dpDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#dpDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#dpDiv a {
+    text-decoration: none;
+}
+
+#dpDiv p {
+    font-size: 16px;
+}
+
+#dpDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#dpDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#dpDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* Pop Series Set */
+#popDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#popDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#popDiv a {
+    text-decoration: none;
+}
+
+#popDiv p {
+    font-size: 16px;
+}
+
+#popDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#popDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#popDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* Platinum Set */
+#platDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#platDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#platDiv a {
+    text-decoration: none;
+}
+
+#platDiv p {
+    font-size: 16px;
+}
+
+#platDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#platDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#platDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* HeartGold SoulSilver Set */
+#hgssDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#hgssDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#hgssDiv a {
+    text-decoration: none;
+}
+
+#hgssDiv p {
+    font-size: 16px;
+}
+
+#hgssDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#hgssDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#hgssDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* Call of Legends Set */
+#callDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#callDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#callDiv a {
+    text-decoration: none;
+}
+
+#callDiv p {
+    font-size: 16px;
+}
+
+#callDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#callDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#callDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* Black and White Set */
+#bwDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#bwDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#bwDiv a {
+    text-decoration: none;
+}
+
+#bwDiv p {
+    font-size: 16px;
+}
+
+#bwDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#bwDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#bwDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* XY Set */
+#xyDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#xyDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#xyDiv a {
+    text-decoration: none;
+}
+
+#xyDiv p {
+    font-size: 16px;
+}
+
+#xyDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#xyDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#xyDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* Sun and Moon Set */
+#smDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#smDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#smDiv a {
+    text-decoration: none;
+}
+
+#smDiv p {
+    font-size: 16px;
+}
+
+#smDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#smDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#smDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+/* Sword and Shield Set */
+#swshDiv .card .card-image img {
+    max-height: 100%;
+    text-align: center;
+}
+
+#swshDiv .card .card-image {
+    padding-top: 15px;
+    text-align: center;
+}
+
+#swshDiv a {
+    text-decoration: none;
+}
+
+#swshDiv p {
+    font-size: 16px;
+}
+
+#swshDiv a:hover {
+    color:  #4a4a4a;
+}
+
+#swshDiv {
+    margin: 0;
+    margin-bottom: 5rem;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style-type: none;
+}
+
+#swshDiv .card {
+    display: block;
+    margin: 1em;
+    padding: 1em;
+    flex-basis: calc(33.33% - 2em);
+    cursor: pointer;
+    min-width: 250px;
+    max-width: 300px;
+    height: 230px;
+}
+
+.card{
+    background-color: #fff;
+    box-shadow: 0 2px 3px rgba(10,10,10,.1), 0 0 0 1px rgba(10,10,10,.1);
+    color: #4a4a4a;
+    width: 100%;
+    height: auto;
+    max-height: 331.08px;
+    position: relative;
+    text-align: center;
+}
+
+.cardHead{
+    background: #343a40;
+    color: white;
+    padding: 1rem 1rem;
+    border: 1px solid rgba(0,0,0,.125);
+    border-radius: 1rem;
+}
+
+.card-content{
+    padding: 1.5rem;
+}
+
+.card:hover {
+    transform:scale(1.1);
+    transition-duration: .4s;
+}
+
+
+.setImg{
+    max-width: 75%;
+    height: 4rem;
+}
+
+.symbolImg{
+    height: 30px;
+    width: 30px;
+    margin: auto auto 0;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* Spreadsheet styling */
+.initial{
+  display: none;
+}
+
+.table-container{
+    margin-top:125px;
+    margin-bottom: 125px;
+}
+
+#collection{
+  border: 2px solid black;
+  padding: 1rem;
+  margin-top: 5rem;
+  margin-bottom: 15px;
+
+}
+
+.collectCount{
+  text-align: center;
+}
+
+.checks{
+  float: left;
+  vertical-align: middle;
+}
+
+.collectionBox{
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  vertical-align: middle;
+}
+
+.card-table{
+    border-collapse:separate; 
+    border-spacing:0 15px;
+}
+
+thead{
+    border-spacing: 25px;
+}
+
+th, td{
+    width:50px; 
+    padding:5px;
+    /* border:1px solid black;     */
+}
+
+.boxDiv{
+  text-align: center;
+  padding: 5px 0;
+}
+
+.tableBox{
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+}
+
+#set-num{
+  width: 50px;
+}
+
+input {
+    border-top-style: hidden;
+    border-right-style: hidden;
+    border-left-style: hidden;
+    border-bottom-style: hidden;
+}
+  
+  table{
+    border-collapse:collapse;
+    width:100%;
+  }
+
+  #resultsTable{
+    border:1px solid #333;
+    margin-bottom: 5rem;
+  }
+ 
+  .blue{
+    font-size: 18px;
+    background-color: #007bff;
+    margin-bottom: 5rem;
+  }
+  
+  .blue thead{
+
+    background:#007bff;
+  }
+  
+  thead{
+    color:white;
+  }
+  
+  th,td{
+    text-align:center;
+    padding:5px 0;
+  }
+  
+  tbody tr:nth-child(even){
+    background:rgb(231, 231, 231);
+  }
+  
+  tbody tr:hover{
+    background:#BDC3C7;
+    color:#FFFFFF;
+  }
+
+    /* modal style */
+  .modalImg{
+    height: 700px
+  }
+  
+  .modal-content{
+    background-color: transparent;
+  }
+
+  .modal-dialog{
+    background-color: transparent;
+  }
+
+  button.close{
+    background-color: black;
+    color: white;
+  }
+  button.close:hover{
+    background-color: black;
+    color: rgba(245, 245, 245, 0.678);
+  }
+
